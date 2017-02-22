@@ -1,2 +1,2 @@
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+<link rel="stylesheet" href="styles.css" />
 # ellakcd.github.io
