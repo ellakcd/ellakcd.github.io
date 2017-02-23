@@ -3,37 +3,44 @@ body {
 }
 
 h1 {
-	background: purple;
 	margin: 10px;
 	text-align: center;
-	border: solid green;
+	border: solid purple;
 	background-image: url("background.jpg");
+}
+
+h2 {
+	background: purple;
+	margin: 40px;
+	text-align: center;
 }
 
 #headshot {
 	border: dotted green;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
 	background: blue;
 }
 
-table {
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 30px;
+ul {
+	list-style-type: none;
+	display: inline;
 	text-align: center;
-	border: dotted green;
-	color: green;
 }
 
-div.container1 {
-	background: purple;
-	padding: 3px;
-	margin: 10px;
+table {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border: dotted blue;
+	color: black;
+	padding: 20px;
+	margin: 0px auto;
 }
+
 
 a:link {
-	color: grey;
+	color: purple;
 }
 
 a:visited {
@@ -44,8 +51,37 @@ a:hover {
 	color: green;
 }
 
-@media (max-width: 100px) { 
-	table {
-		font-size: 10px;
-	}
+a {
+	padding: 25px;
+}
+
+form {
+	background: blue;
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	text-align: center;
+	background: grey;
+	font-size: 20px;
+}
+
+#review {
+	margin-left: 250px;
+	text-align: center;
+	background: grey;
+	padding: 40px;
+	font-size: 15px;
+}
+
+#reviewpics {
+	display: inline;
+	clear: both;
+	float: left;
+	padding: 20px;
+}
+
+#prodpics {
+	display: inline;
 }
